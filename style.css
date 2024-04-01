@@ -1,0 +1,65 @@
+/* CSS */
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .track-box {
+    flex: 1 1 300px;
+    margin: 10px; 
+    border: 1px solid #222121; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    border-radius: 20px;
+   
+  }
+  .track-box img {
+    display: block;
+    margin: 0 auto; 
+  }
+#searchForm{
+   position:relative;
+   left:500px;
+}
+.heading{
+  position:relative;
+  left:550px;
+  top:-50px
+}
+#catergory{
+   height:38px;
+   width:100px;
+   position:relative;
+  left:-100px;
+  top:-50px
+}
+#query{
+  height:35px;
+  width: 400px;
+  position:relative;
+  left:-100px;
+  top:-50px
+}
+#btn{
+  height:40px;
+  width:100px;
+  position:relative;
+  left:-100px;
+  top:-50px
+}
+#img1{
+  height:50px;
+  width:50px;
+  position: relative;
+  top:20px;
+  left:450px;
+  mix-blend-mode:multiply;
+}

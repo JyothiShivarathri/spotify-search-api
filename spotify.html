@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.jpg" id="img1">
+  <h1 class="heading">Spotify Web Player</h1>
+  <form id="searchForm">
+    <select name="catergory" id="catergory">
+      <option value="Artist">Artist</option>
+      <option value="Song">Song/Album</option>
+    </select>
+    <input type="text" name="query" id="query" placeholder="Enter Artist/Song/Album name">
+    <button type="submit" id="btn">Search</button>
+  </form>
+
+  <ul id="results"></ul>
+
+</body>
+<script src="script.js"></script>
+</html>
